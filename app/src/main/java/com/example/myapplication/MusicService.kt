@@ -144,9 +144,9 @@ class MusicService : Service() {
     }
 
     companion object {
-        const val ACTION_TOGGLE_PLAYBACK = "com.ex.musicplayer.TOGGLE_PLAYBACK"
-        const val ACTION_PLAY_PREVIOUS = "com.ex.musicplayer.PLAY_PREVIOUS"
-        const val ACTION_PLAY_NEXT = "com.ex.musicplayer.PLAY_NEXT"
+        const val ACTION_TOGGLE_PLAYBACK = "com.example.myapplication.TOGGLE_PLAYBACK"
+        const val ACTION_PLAY_PREVIOUS = "com.example.myapplication.PLAY_PREVIOUS"
+        const val ACTION_PLAY_NEXT = "com.example.myapplication.PLAY_NEXT"
         const val CHANNEL_ID = "MusicPlayerChannel"
         const val NOTIFICATION_ID = 1
         const val EXTRA_IS_PLAYING = "extra_is_playing"

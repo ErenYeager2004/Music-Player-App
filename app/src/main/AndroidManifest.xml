@@ -3,8 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools">
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+
         android:maxSdkVersion="32" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
@@ -36,9 +38,9 @@
             android:enabled="true"
             android:exported="false">
             <intent-filter>
-                <action android:name="com.ex.musicplayer.ACTION_PLAY_PREVIOUS" />
-                <action android:name="com.ex.musicplayer.ACTION_TOGGLE_PLAYBACK" />
-                <action android:name="com.ex.musicplayer.ACTION_PLAY_NEXT" />
+                <action android:name="com.example.myapplication.ACTION_PLAY_PREVIOUS" />
+                <action android:name="com.example.myapplication.ACTION_TOGGLE_PLAYBACK" />
+                <action android:name="com.example.myapplication.ACTION_PLAY_NEXT" />
             </intent-filter>
         </receiver>
 

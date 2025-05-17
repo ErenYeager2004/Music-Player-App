@@ -235,7 +235,7 @@
 
 
 
-            <com.ex.musicplayer.CustomVisualizerView
+            <com.example.myapplication.CustomVisualizerView
                 android:id="@+id/visualizerView"
                 android:layout_width="match_parent"
                 android:visibility="gone"

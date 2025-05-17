@@ -33,9 +33,9 @@ import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.ex.musicplayer.CustomVisualizerView
-import com.ex.musicplayer.Song
-import com.ex.musicplayer.SongsAdapter
+import  com.example.myapplication.CustomVisualizerView
+import com.example.myapplication.Song
+import com.example.myapplication.SongsAdapter
 import java.io.FileNotFoundException
 import java.io.IOException
 
@@ -129,7 +129,7 @@ class MainActivity : AppCompatActivity() {
             } else {
                 // If no song is currently playing, play the first song from the playlist
                 if (songsAdapter.itemCount > 0) {
-                    val firstSong = songsAdapter.getSongs()[50]
+                    val firstSong = songsAdapter.getSongs()[0] // index 0 = first song
                     currentSongIndex = 0
                     playSong(firstSong)
                 }
